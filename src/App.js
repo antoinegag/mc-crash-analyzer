@@ -36,7 +36,7 @@ class App extends React.Component {
       <>
         <NavBar onNew={() => this.setState({ data: null })} />
         <UncontrolledAlert color="info">
-          This is a beta version, please reports all issues{" "}
+          This is a beta version, please report all issues{" "}
           <a
             className="alert-link"
             target="_blank"
