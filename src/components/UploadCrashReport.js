@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Badge } from "reactstrap";
 class UploadCrashReport extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -31,7 +32,9 @@ class UploadCrashReport extends React.PureComponent {
   render() {
     return (
       <div>
-        <h1>Upload crash report</h1>
+        <h1>
+          Upload crash report <Badge color="info">Beta</Badge>
+        </h1>
         <br />
         <input
           type="file"
