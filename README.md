@@ -1,3 +1,3 @@
 # Minecraft Crash analyzer
 
-![Demo](https://streamable.com/9s7fk)
+[Demo](https://streamable.com/9s7fk)
